@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>animate</title>
+    <style type="text/css">
+        .searchBox{
+            float: right;
+        }
+        .inputBox{
+            display: none;
+            float: left;
+            width: 0px;
+            height: 20px;
+            padding: 4px 10px;
+            background: #ccc;
+            border-radius: 30px;
+            outline: 0;
+            border: none;
+            color: #fff;
+        }
+        .search{
+            float: left;
+            margin-left: 20px;
+            width: 28px;
+            height: 28px;
+        }
+        .search img{
+            display: block;
+            margin: 4px 0;
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+<div class="searchBox">
+    <input class="inputBox" placeholder="请输入关键字" type="text"/>
+    <i class="search"><img src="icon_search_nor.png" alt=""/></i>
+</div>
+</body>
+<script src="jquery-1.11.3.min.js"></script>
+<!--<script src="animate.js"></script>-->
+<script type="text/javascript">
+    $(function(){
+        function placeholder(nodes,pcolor) {
+            console.log(nodes.length);
+            if(nodes.length && !("placeholder" in document.createElement("input"))){
+                for(i=0;i<nodes.length;i++){
+                    var self = nodes[i];
+                    var placeholder = self.getAttribute('placeholder') || '';
+                    console.log(placeholder);
+                self.onfocus = function(){
+                    if(self.value == placeholder){
+                        self.value = '';
+                        self.style.color = "";
+                    }
+                };
+                self.onblur = function(){
+                    if(self.value == ''){
+                        self.value = placeholder;
+                        self.style.color = pcolor;
+                    }
+                };
+                self.value = placeholder;
+                self.style.color = pcolor;
+            }
+        }
+    };
+        var inputLis=[];
+        for(var i=0;i<$('.inputBox').length;i++){
+            inputLis.push($('.inputBox')[i]);
+        }
+        placeholder(inputLis,'#fff');
+    $('.search').on('click',function(e){
+            console.log($('.inputBox').css('display'));
+            if($('.inputBox').css('display')=='none'){
+                $(".inputBox").show().animate({
+                    width: "150px"
+                }, 1000);
+            }else{
+                $(".inputBox").animate({
+                    width: "0"
+                }, 1000,function(){
+                    $(this).hide();
+                });
+            }
+        })
+
+
+    })
+</script>
+</html>
