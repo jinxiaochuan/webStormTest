@@ -1,0 +1,374 @@
+/*start person_info*/
+.person_info {
+    position: relative;
+    margin: 60px auto 0;
+    width: 1200px;
+}
+
+.person_info .person_info_bg {
+    height: 120px;
+    background-image: linear-gradient(45deg, #58BAE1 0%, #5ABBDD 15%, #5BBCDC 23%, #5BBCDB 23%, #5CBDDA 31%, #64C4C9 100%);
+    background: #58BAE1;
+
+}
+
+.person_info .person_info_bg.person_info_noBg {
+    height: 128px;
+    background: #FFFFFF;
+}
+
+.person_info .person_info_detail {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 70px;
+}
+
+.person_info .person_info_detail dl {
+    width: 100%;
+}
+
+.person_info .person_info_detail dl dt {
+    width: 100px;
+    height: 100px;
+    background: #cccccc;
+}
+
+.person_info .person_info_detail dl dd.person_info_nickname {
+    padding-top: 10px;
+    font-size: 18px;
+    color: #58627C;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.person_info_score {
+    position: absolute;
+    top: 198px;
+    width: 1200px;
+    font-size: 14px;
+    color: #9B9B9B;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.person_info_score .info_score {
+    font-size: 30px;
+    color: #2B90A3;
+    letter-spacing: 0px;
+}
+
+/*end person_info*/
+
+/*end bid_info*/
+.bid_info {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.bid_info .bid_info_select {
+    width: 100%;
+}
+
+.bid_info .bid_info_select .select_list {
+    float: left;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin: 15px 10px 15px 0px;
+    text-align: center;
+    background-color: #ffffff;
+    vertical-align: middle;
+}
+
+.bid_info .bid_info_select .selected {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px 10px 10px 0px;
+    font-size: 18px;
+    color: #1E89E2;
+}
+
+.bid_info .bid_info_detail {
+    width: 1200px;
+}
+
+.bid_info .bid_info_detail .project_list {
+    width: 1120px;
+    padding: 0px 40px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+}
+
+.bid_list_already, .bid_list_fail {
+    height: 144px;
+}
+
+.bid_list_success, .bid_list_cancel {
+    height: 219px;
+}
+
+.project_list .bid_title span {
+    display: block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 40px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.project_list .bid_title span.bid_fig {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.project_list .bid_con {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.project_list .bid_con_success {
+    margin-bottom: 30px;
+}
+
+.project_list .bid_con .con {
+    float: left;
+    font-size: 24px;
+    color: #333333;
+}
+
+.project_list .bid_con .detail {
+    float: right;
+    margin-right: 40px;
+    font-size: 14px;
+    color: #1E89E2;
+}
+
+.bid_already {
+    background: #F5A623;
+}
+
+.bid_success {
+    background: #FF4F4F;
+}
+
+.bid_completed {
+    background: #1E89E2;
+}
+
+.bid_fail {
+    background: #CFCFCF;
+}
+
+.bid_cancel {
+    background: #CFCFCF;
+}
+
+.bid_con_reason {
+    height: 104px;
+}
+
+.bid_con_reason .con_reason {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.bid_con_reason .detail_reason {
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.line {
+    display: block;
+    width: 100%;
+    height: 0px;
+    border-bottom: 1px solid #EAEAEA;;
+}
+
+.bid_con_comment {
+    padding: 15px 0px 40px;
+    height: 70px;
+}
+
+.bid_con_comment ol {
+    width: 100%;
+    height: 100%;
+}
+
+.bid_con_comment ol li {
+    float: left;
+}
+
+.comment_person {
+    width: 171px;
+    height: 70px;
+}
+
+.comment_person .person_title {
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.comment_person .person_detail {
+    height: 40px;
+    padding: 4px 1px;
+    border-right: 1px solid #EAEAEA;
+}
+
+.comment_person .person_detail .person_img {
+    float: left;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #00C868;
+}
+
+.comment_person .person_detail .person_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.comment_person .person_detail .person_desc {
+    float: left;
+    margin-left: 10px;
+}
+
+.comment_person .person_detail .person_desc p {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #58627C;
+    letter-spacing: 0px;
+}
+
+.comment_person .person_detail .person_desc span {
+    float: left;
+    font-size: 10px;
+    color: #9B9B9B;
+    letter-spacing: 0px;
+    vertical-align: bottom;
+}
+
+.score {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    color: #2B90A3;
+    letter-spacing: 0px;
+}
+
+.comment_score {
+    width: 144px;
+    height: 72px;
+}
+
+.comment_score .person_title {
+    height: 27px;
+    line-height: 27px;
+    margin-left: 40px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.comment_score span {
+    display: block;
+    width: 142px;
+    height: 45px;
+    line-height: 45px;
+    border-right: 1px solid #EAEAEA;
+    font-size: 50px;
+    color: #1E89E2;
+    text-align: center;
+
+}
+
+.comment_detail {
+    padding-left: 40px;
+}
+
+.comment_detail .person_title {
+    height: 27px;
+    line-height: 27px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.comment_detail .comment_detail_con {
+    font-size: 20px;
+    color: #333333;
+}
+
+/*end bid_info*/
+
+/*start tips*/
+.tips {
+    height: 30px;
+    margin: 40px 445px 140px;
+}
+
+.tips .page {
+    display: block;
+    float: left;
+    width: 70px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0px;
+    background: #FFFFFF;
+}
+
+.tips .pages {
+    float: left;
+    margin-right: 10px;
+}
+
+.tips .pages .page_list {
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #333333;
+    background: #FFFFFF;
+}
+
+.tips .pages .page_list_selected {
+    background: #1E89E2;
+    color: #FFFFFF;
+}
+
+/*end tips*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

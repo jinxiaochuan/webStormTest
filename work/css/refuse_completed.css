@@ -1,0 +1,516 @@
+/* start header */
+.header{
+    width:100%;
+    height: 70px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0 2px 4px rgba(193, 193, 193, 0.5);
+    -moz-box-shadow: 0 2px 4px rgba(193, 193, 193, 0.5);
+    -ms-box-shadow: 0 2px 4px rgba(193, 193, 193, 0.5);
+    -o-box-shadow: 0 2px 4px rgba(193, 193, 193, 0.5);
+    box-shadow: 0 2px 4px rgba(193, 193, 193, 0.5);
+}
+.header .header_middle{
+    width: 1200px;
+    height: 70px;
+    margin:0 auto;
+}
+.header .header_middle .header_logo{
+    float: left;
+    padding: 13px 0;
+    margin-left: 45px;
+}
+.header .header_middle .header_logo a{
+    display: inline-block;
+    width: 96px;
+    height: 44px;
+}
+.header .header_middle .header_logo a img{
+    width: 100%;
+    height: 100%;
+}
+.header .header_middle .header_logo span{
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+    font-size: 28px;
+    color: #009DCD;
+    vertical-align: top;
+}
+.header .header_middle .header_return{
+    float: right;
+    width: 140px;
+    height:40px;
+    line-height: 40px;
+    margin: 15px 13px 15px;
+    text-align: center;
+    background: #1E89E2;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+/* end header */
+
+/* start apply */
+.apply{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    background: #FFFFFF;
+}
+.apply .apply_detail{
+    padding: 0 50px;
+}
+.apply .apply_detail .apply_list{
+    border-bottom:1px solid #EAEAEA;;
+}
+.refuse_title{
+    height: 104px;
+    line-height: 104px;
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+}
+.refuse_info{
+    height: 90px;
+    line-height: 90px;
+    padding-left: 10px;
+}
+.refuse_info .warm_logo{
+    float: left;
+    margin: 20px 0;
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #D8D8D8;
+    border: 1px solid #979797;
+}
+.refuse_info .warm_info{
+    float: left;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #FF4F4F;
+}
+.refuse_reason{
+    height: 84px;
+    padding-left: 50px;
+}
+.refuse_reason .reason_title{
+    padding: 20px 0 10px 0;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #999999;
+}
+.refuse_reason .reason_con{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    color: #333333;
+}
+.cancel_project {
+    height: 116px;
+    padding: 0 50px;
+}
+.cancel_project .bid_title{
+    padding: 20px 0;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #999999;
+}
+.cancel_project .bid_title .project_num{
+    margin-right: 40px;
+}
+.cancel_project .bid_con{
+    height: 24px;
+    line-height: 24px;
+}
+.cancel_project .bid_con .con{
+    font-size: 24px;
+    color: #333333;
+}
+.cancel_project .bid_con .detail{
+    float: right;
+    font-size: 14px;
+    color: #1E89E2;
+}
+.cancel_balance {
+    padding: 0 50px;
+    height: 60px;
+    line-height: 60px;
+}
+.cancel_balance .balance{
+    padding-right: 10px;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 0px;
+}
+.cancel_balance .project_balance{
+    font-size: 20px;
+    color: #F5A623;
+}
+.cancel_balance .balance_detail{
+    float: right;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 0px;
+}
+.cancel_balance .balance_detail .arrow_down{
+    display: inline-block;
+    margin-left: 10px;
+    width: 14px;
+    height: 14px;
+    background: url("../images/refuse/icon_disclosure%20indicator_down_pre.png") left 6px no-repeat;
+}
+
+
+/*start展开状态*/
+/* start交易明细 */
+.transaction{
+    display: none;
+    margin-top: 10px;
+    padding: 20px 20px 0;
+    width: 900px;
+    background: #FFFFFF;
+}
+.transaction_large{
+    padding: 20px 0;
+    width: 1100px;
+}
+.transaction_title{
+    padding: 0 20px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    color: #666666;
+    letter-spacing: 0px;
+}
+.transaction_amount{
+    padding: 0 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.amount_list{
+    float: left;
+    width: 110px;
+    margin-right: 160px;
+}
+.amount_list p{
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #9B9B9B;
+    letter-spacing: 0px;
+}
+.amount_list span{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 6px;
+    font-size: 30px;
+    color: #F5A623;
+}
+.transaction_detail{
+    border-bottom: 1px solid #EAEAEA;;
+}
+.transaction_list{
+    float: left;
+}
+.transaction_list p{
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 1px solid #EAEAEA;;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0px;
+}
+.transaction_list span{
+    line-height: 100px;
+    font-size: 18px;
+    color: #333333;
+    letter-spacing: 0px;
+}
+.transaction_time,.transaction_number,.transaction_type{
+    width: 200px;
+}
+.transaction_sum,.transaction_account{
+    width: 140px;
+}
+.transaction_time{
+    width: 220px;
+}
+
+.transaction_time_large,.transaction_number_large,.transaction_type_large{
+    width: 240px;
+}
+.transaction_sum_large,.transaction_account_large{
+    width: 180px;
+}
+.transaction_time_large{
+    width: 260px;
+}
+
+.time_title{
+    padding-left: 20px;
+}
+.time_detail{
+    padding-left: 20px;
+}
+.symbol{
+    display: inline-block;
+    width: 18px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #79C52D;
+    letter-spacing: 0px;
+}
+.slide_up{
+    /*margin-right: 10px;
+    height: 46px;
+    line-height: 46px;
+    text-align: right;
+    vertical-align: middle;*/
+
+    padding: 0 50px;
+    height: 46px;
+    line-height: 46px;
+    background: #FFFFFF;
+    margin-top: 10px;
+}
+.slide_up_word{
+    /*font-size: 14px;
+    color: #666666;*/
+    float: right;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 0px;
+}
+.arrow_up{
+    margin-left: 10px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url("../images/bids/icon_disclosure%20indicator_down_pre.png") left bottom no-repeat;
+}
+/* end 交易明细 */
+/*end展开状态*/
+
+
+/* end apply */
+
+
+/* start evaluation */
+.evaluation{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 98px;
+    padding-bottom: 100px;
+    background: #FFFFFF;
+}
+.evaluation .evaluation_title{
+    margin: 0 50px;
+    height: 104px;
+    line-height: 104px;
+    text-align: center;
+    border-bottom: 1px solid #EAEAEA;
+    font-size: 24px;
+    color: #333333;
+}
+.evaluation .evaluation_con{
+    padding: 40px 100px 60px;
+}
+.con_list{
+    margin-bottom: 60px;
+}
+.con_person{
+    height: 64px;
+}
+.con_person .apply_person{
+    float: left;
+}
+.apply_person .person_title{
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #666666;
+}
+.apply_person .person_detail{
+
+}
+.person_detail .person_img{
+    float: left;
+    width: 60px;
+    height: 60px;
+    background: #ccc;
+}
+.person_detail .person_img img{
+    width: 100%;
+    height: 100%;
+}
+.person_detail .person_con{
+    float: left;
+    padding-left: 10px;
+}
+.person_con .person_nickname{
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #58627C;
+    letter-spacing: 0px;
+}
+.person_con .person_reputation{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 10px;
+    color: #9B9B9B;
+    letter-spacing: 0px;
+}
+.person_con .reputation_score{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    color: #2B90A3;
+    letter-spacing: 0px;
+}
+
+.con_standard{
+
+}
+.con_standard .con_standard_left{
+    float: left;
+    width: 500px;
+}
+.con_standard .con_standard_right{
+    float: right;
+}
+.con_standard_left .standard_title{
+    font-size: 14px;
+    color: #666666;
+}
+.con_standard_left .standard_score{
+
+}
+.con_standard_left .standard_score .score_bar{
+    height: 60px;
+    line-height: 60px;
+}
+.score_bar .bar_name{
+    float: left;
+    margin: 20px 0;
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    color: #333333;
+}
+.score_bar .bar_bg{
+    position: relative;
+    float: left;
+    margin: 25px 30px 25px 20px;
+    width: 300px;
+    height: 10px;
+    vertical-align: middle;
+    background: #EAEAEA;
+    border-radius: 100px;
+}
+.score_bar .bar_bg .bar_main{
+    display: block;
+    //width: 60%;
+    width: 100%;
+    height: 10px;
+    background: #EAEAEA;
+    border-radius: 100px;
+}
+.score_bar .bar_bg .bar_ball{
+    position: absolute;
+    top:-3px;
+    left:0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #1E89E2;
+}
+.score_bar .bar_num{
+    float: left;
+    margin: 12.5px 0;
+    height: 35px;
+    line-height: 35px;
+    font-size: 30px;
+    color: #333333;
+    width: 70px;
+}
+.project_score{
+    margin-top: 50px;
+    height: 50px;
+}
+.project_score .total_title{
+    float: left;
+    line-height: 50px;
+    font-size: 20px;
+    color: #333333;
+}
+.project_score .total_score{
+    float: left;
+    padding-left: 20px;
+    line-height: 50px;
+    font-size: 40px;
+    color: #333333;
+}
+
+.con_standard_right .eval_title{
+    font-size: 14px;
+    color: #666666;
+}
+.con_standard_right .evaluation_con{
+    width: 358px;
+    height: 158px;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666666;
+    background: #FFFFFF;
+    border: 1px solid #E0E7EE;
+}
+
+.apply_btn{
+    display: block;
+    margin: 0 500px 0;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #1E89E2;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+}
+/* end evaluation */
+
+/* start QR code */
+.code{
+    margin: 100px auto;
+    width: 200px;
+    text-align: center;
+}
+.code .code_img{
+    width: 200px;
+    height: 200px;
+    background: #D8D8D8;
+    margin-bottom: 20px;
+}
+.code .code_word{
+    font-size: 18px;
+    color: #2B90A3;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+
+
+/* end QR code */

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>refuse_completed</title>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/refuse_completed.css"/>
+    <link rel="stylesheet" href="../plugins/jquery-ui-sliderbar/css/base/jquery-ui-1.10.4.custom.css"/>
+</head>
+<body>
+    <!--start header-->
+    <div class="header">
+        <div class="header_middle clearfix">
+            <div class="header_logo">
+                <a href=""><img src="../images/index/header_logo.png" alt=""/></a>
+                <span class="person_center">个人中心</span>
+            </div>
+            <a class="header_return">返回5A任务首页</a>
+        </div>
+    </div>
+    <!--end header-->
+
+    <!--start apply-->
+    <div class="apply">
+        <ul class="apply_detail">
+            <li class="apply_list refuse_title">
+                <p class="warm_title">对不起！您的项目完成申请被拒绝</p>
+            </li>
+            <li class="apply_list refuse_info clearfix">
+                <b class="warm_logo"></b>
+                <span class="warm_info">项目一旦完成则无法继续进行相关交易，请谨慎操作！</span>
+            </li>
+            <li class="apply_list refuse_reason">
+                <p class="reason_title">拒绝理由</p>
+                <span class="reason_con">项目未完成，我不同意你的申请，而且完成的部分质量很差！</span>
+            </li>
+            <li class="apply_list cancel_project">
+                <div class="bid_title clearfix">
+                    <span class="project_num">项目编号：160810135</span>
+                    <span class="project_time">发布时间：2016-08-10</span>
+                </div>
+                <div class="bid_con clearfix">
+                    <span class="con">山西绿化资源管理责任有限公司项目，绿化实施，项目大，前景好。</span>
+                    <a class="detail">详情<i>&gt</i></a>
+                </div>
+            </li>
+            <li class="apply_list cancel_balance clearfix">
+                <span class="balance">项目余额</span>
+                <span class="project_balance">¥98000</span>
+                <a class="balance_detail" href="">查看交易明细<i class="arrow_down"></i></a>
+            </li>
+            <li class="apply_list">
+                <div class="transaction transaction_large">
+                    <p class="transaction_title">交易明细</p>
+                    <ul class="transaction_amount clearfix">
+                        <li class="amount_list">
+                            <p>项目金额</p>
+                            <span class="project_account">¥98000</span>
+                        </li>
+                        <li class="amount_list">
+                            <p class="arrival_account">已收金额</p>
+                            <span class="project_account">¥98000</span>
+                        </li>
+                    </ul>
+                    <ul class="transaction_detail clearfix">
+                        <li class="transaction_list transaction_time transaction_time_large">
+                            <p class="time_title">交易时间</p>
+                            <span class="time_detail">2016-03-04  12:34</span>
+                        </li>
+                        <li class="transaction_list transaction_number transaction_number_large">
+                            <p class="number_title">交易单号</p>
+                            <span class="number_detail">234435681302</span>
+                        </li>
+                        <li class="transaction_list transaction_sum transaction_sum_large">
+                            <p class="sum_title">金额（¥）</p>
+                            <b class="symbol"></b><span class="sum_detail">98000</span>
+                        </li>
+                        <li class="transaction_list transaction_account transaction_account_large">
+                            <p class="account_title">账户方</p>
+                            <span class="account_detail">张大中华</span>
+                        </li>
+                        <li class="transaction_list transaction_type transaction_type_large">
+                            <p class="type_title">交易类型</p>
+                            <span class="type_detail">项目中止赔偿金</span>
+                        </li>
+                    </ul>
+                    <div class="slide_up clearfix">
+                        <a class="slide_up_word" href="">点击收起<i class="arrow_up"></i></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!--end apply-->
+
+    <!--start project_evaluation-->
+    <div class="evaluation">
+        <p class="evaluation_title">项目评价</p>
+        <ul class="evaluation_con">
+            <li class="con_list con_person clearfix">
+                <div class="apply_person">
+                    <p class="person_title">被评价人</p>
+                    <div class="person_detail clearfix">
+                        <a class="person_img" href=""><img src="" alt=""/></a>
+                        <div class="person_con clearfix">
+                            <p class="person_nickname">独立的思想</p>
+                            <span class="person_reputation">信誉评分：</span><i class="reputation_score">8.0</i>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="con_list con_standard clearfix">
+                <div class="con_standard_left">
+                    <p class="standard_title">请在以下三个方面选择分数</p>
+                    <ol class="standard_score">
+                        <li class="score_bar score_quality clearfix">
+                            <span class="bar_name">项目质量</span>
+                            <span class="bar_bg">
+                                <span class="bar_main quality_main"></span>
+                                <!--<b class="bar_ball quality_ball"></b>-->
+                            </span>
+                            <!--<input class="bar_num quality_num" type="text"/>-->
+                            <span class="bar_num quality_num">5.0</span>
+                        </li>
+                        <li class="score_bar score_progress clearfix">
+                            <span class="bar_name">项目进度</span>
+                            <span class="bar_bg">
+                                <span class="bar_main progress_main"></span>
+                                <!--<b class="bar_ball progress_ball"></b>-->
+                            </span>
+                            <!--<input class="bar_num progress_num" type="text"/>-->
+                            <span class="bar_num progress_num">5.0</span>
+                        </li>
+                        <li class="score_bar score_attitude clearfix">
+                            <span class="bar_name">项目态度</span>
+                            <span class="bar_bg">
+                                <span class="bar_main attitude_main"></span>
+                                <!--<b class="bar_ball attitude_ball"></b>-->
+                            </span>
+                            <!--<input class="bar_num attitude_num" type="text"/>-->
+                            <span class="bar_num attitude_num">3.0</span>
+                        </li>
+                        <li class="project_score clearfix">
+                            <span class="total_title">综合得分</span><span class="total_score">6.0</span>
+                        </li>
+                    </ol>
+                </div>
+                <div class="con_standard_right">
+                    <p class="eval_title">整体评价</p>
+                    <textarea class="evaluation_con" name="standard_evaluation" id="standard_evaluation" cols="30" rows="10" placeholder="项目按时间完成，沟通也很愉快"></textarea>
+                </div>
+            </li>
+        </ul>
+        <a class="apply_btn" href="">再次申请项目完成</a>
+    </div>
+    <!--end project_evaluation-->
+
+    <!--start QR code-->
+    <div class="code">
+        <div class="code_img"><img src="" alt=""/></div>
+        <span class="code_word">请及时下载5A帮<br>以便更好的与承包商沟通</span>
+    </div>
+    <!--end QR code-->
+
+    <!-- start footer-->
+    <div class="footer">
+        <div class="bottom">
+            <div class="bottom-left">
+                <h4 class="btmT"><span class="btmTit">联系我们</span></h4>
+                <p class="btmTel">400-667-1658</p>
+                <p class="btmEmail">helpdesk@5Azhaopin.com</p>
+                <p class="btmServ"><a href="javascript:;">在线客服</a></p>
+            </div>
+            <div class="bottom-right">
+
+                <div>
+                    <a href="###"><h5>新手指南</h5></a>
+                    <a href="###"><p>注册新用户</p></a>
+                    <a href="###"><p>发包商入门</p></a>
+                    <a href="###"><p>承包商入门</p></a>
+                    <a href="###"><p>帮客入门</p></a>
+                    <a href="###"><p class="mb0">服务协议</p></a>
+                </div>
+                <div>
+                    <a href="###"><h5>新手指南</h5></a>
+                    <a href="###"><p>注册新用户</p></a>
+
+                </div>
+                <div>
+                    <a href="###"><h5>新手指南</h5></a>
+                    <a href="###"><p>注册新用户</p></a>
+                    <a href="###"><p>发包商入门</p></a>
+                    <a href="###"><p>承包商入门</p></a>
+                    <a href="###"><p>帮客入门</p></a>
+
+                </div>
+                <div>
+                    <a href="###"><h5>新手指南</h5></a>
+                    <a href=""><p>注册新用户</p></a>
+                    <a href=""><p>发包商入门</p></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer-->
+</body>
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../plugins/jquery-ui-sliderbar/js/jquery-1.10.2.js"></script>
+<script src="../plugins/jquery-ui-sliderbar/js/jquery-ui-1.10.4.custom.js"></script>
+<script type="text/javascript">
+    $(function(){
+        /*滑块功能的实现*/
+        $('.quality_main').slider({
+            range:'min',
+            value:6.0,
+            min:0.0,
+            max:10.0,
+            slide:function(event,ui){
+                $('.quality_num').text(ui.value+'.0');
+                computedScore();
+            }
+        });
+        $('.quality_num').text($('.quality_main').slider('value')+'.0');
+
+        $('.progress_main').slider({
+            range:'min',
+            value:6.0,
+            min:0.0,
+            max:10.0,
+            slide:function(event,ui){
+                $('.progress_num').text(ui.value+'.0');
+                computedScore();
+            }
+        });
+        $('.progress_num').text($('.progress_main').slider('value')+'.0');
+
+        $('.attitude_main').slider({
+            range:'min',
+            value:6.0,
+            min:0.0,
+            max:10.0,
+            slide:function(event,ui){
+                $('.attitude_num').text(ui.value+'.0');
+                computedScore();
+            }
+        });
+        $('.attitude_num').text($('.attitude_main').slider('value')+'.0');
+
+
+        /*计算平均分数*/
+        function computedScore(){
+            var quality_num=$('.quality_num').text()*10;
+            var progress_num=$('.progress_num').text()*10;
+            var attitude_num=$('.attitude_num').text()*10;
+            /*var bar_width=parseFloat($('.bar_bg').css('width'));
+
+             $('.quality_main').css('width',quality_num+'%');
+             $('.progress_main').css('width',progress_num+'%');
+             $('.attitude_main').css('width',attitude_num+'%');
+             $('.quality_ball').css('left',quality_num/100*bar_width-8+'px');
+             $('.progress_ball').css('left',progress_num/100*bar_width-8+'px');
+             $('.attitude_ball').css('left',attitude_num/100*bar_width-8+'px');
+             */
+            var total_score=((quality_num+progress_num+attitude_num)/10/3).toFixed(1);
+            $('.total_score').html(total_score);
+        }
+
+
+        /*实现点击详情下拉展示*/
+        $('.balance_detail').click(function(e){
+            e.preventDefault();
+            $('.cancel_balance').hide();
+            $('.transaction').slideDown("fast");
+        });
+        $('.slide_up_word').click(function(e){
+            e.preventDefault();
+            $('.cancel_balance').show();
+            $('.transaction').slideUp("fast");
+        });
+    })
+</script>
+</html>

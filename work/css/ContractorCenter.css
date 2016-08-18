@@ -1,0 +1,441 @@
+body {
+    font-family: 'Microsoft YaHei', '宋体', simsun, tahoma, arial, '宋体', sans-serif;
+    font-size: 12px;
+    width: 100%;
+    color: #9b9b9b;
+    background: #E8EDFA;
+}
+/* //清除浮动 */
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    display: block;
+    clear: both;
+    conent: '';
+}
+.fl {
+    display: inline-block;
+    float: left;
+}
+.fr {
+    display: inline-block;
+    float: right;
+}
+.of {
+    overflow: hidden;
+}
+.wm {
+    box-sizing: border-box;
+    width: 100%;
+}
+/* //定位匹配 */
+/* //混合 */
+.border {
+    border: 1px solid #eaeaae;
+}
+/* //混合可带参数(默认) */
+/* 圆角 */
+/* 盒阴影 */
+/* 渐变 */
+.wm {
+    width: 100%;
+    box-sizing: border-box;
+}
+.wb {
+    width: 1200px;
+    box-sizing: border-box;
+}
+/*===================*/
+a {
+    color: #3c99cd;
+}
+.d0 {
+    display: none;
+}
+.m0 {
+    margin: 0 auto;
+}
+.mr0 {
+    margin-right: 0;
+}
+.mb0 {
+    margin-bottom: 0;
+}
+.mt0 {
+    margin-top: 0;
+}
+.ml0 {
+    margin-left: 0;
+}
+.pl0 {
+    padding-left: 0;
+}
+.pr0 {
+    padding-right: 0;
+}
+.pt0 {
+    padding-top: 0;
+}
+.pb0 {
+    padding-bottom: 0;
+}
+.br0 {
+    border-right: 0;
+}
+.btm0 {
+    border-bottom: 0;
+}
+.brt0 {
+    border-top: 0;
+}
+.bs {
+    box-sizing: border-box;
+}
+input {
+    border: 0;
+}
+.bgimg {
+    background-position: center top;
+}
+input[type='checkbox'] {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #E0E7EE;
+}
+input[type='text'],
+seclect {
+    width: 580px;
+    height: 42px;
+    border: 1px solid #E0E7EE;
+}
+input[type="date"] {
+    width: 300px;
+    height: 42px;
+    border: 1px solid #E0E7EE;
+}
+input[type='radio'] {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #999999;
+    vertical-align: -5px;
+}
+.pb60 {
+    padding-bottom: 60px;
+}
+.pr40 {
+    padding-right: 40px;
+}
+.pl40 {
+    padding-left: 40px;
+}
+.pb10 {
+    padding-bottom: 10px;
+}
+.pr100 {
+    padding-right: 100px;
+}
+.mr40 {
+    margin-right: 40px;
+}
+.mr20 {
+    margin-right: 20px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.mt40 {
+    margin-top: 40px;
+}
+.mt8 {
+    margin-top: 8px;
+}
+.f10c9 {
+    font-size: 10px;
+    color: #999;
+}
+.f12c9 {
+    font-size: 12px;
+    color: #999;
+}
+.f14c6 {
+    font-size: 14px;
+    color: #666;
+}
+.f14c9 {
+    font-size: 14px;
+    color: #999;
+}
+.f16c3 {
+    font-size: 16px;
+    color: #333;
+}
+.f18c3 {
+    font-size: 18px;
+    color: #333;
+}
+.f20c6 {
+    font-size: 20px;
+    color: #666;
+}
+.f20c3 {
+    font-size: 20px;
+    color: #333;
+}
+.f24c3 {
+    font-size: 24px;
+    color: #333;
+}
+.f30c3 {
+    font-size: 30px;
+    color: #333;
+}
+.f50c6 {
+    font-size: 50px;
+    color: #333;
+}
+.tx1 {
+    color: #fff;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+}
+.tx {
+    color: #fff;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+}
+.br1 {
+    border-right: 1px solid #eaeaea;
+}
+.btm1 {
+    border-bottom: 1px solid #eaeaea;
+}
+.btp1 {
+    border-top: 1px solid #eaeaea;
+}
+.br {
+    border: 1px solid #E0E7EE;
+}
+.lh40 {
+    line-height: 40px;
+}
+.lh30 {
+    line-height: 30px;
+}
+/* top */
+.header {
+    -webkit-box-shadow: 0px 2px 4px rgba(193, 193, 193, 0.5);
+    -moz-box-shadow: 0px 2px 4px rgba(193, 193, 193, 0.5);
+    -ms-box-shadow: 0px 2px 4px rgba(193, 193, 193, 0.5);
+    -o-box-shadow: 0px 2px 4px rgba(193, 193, 193, 0.5);
+    box-shadow: 0px 2px 4px rgba(193, 193, 193, 0.5);
+}
+.backHome {
+    display: block;
+    display: inline-block;
+    float: right;
+    width: 140px;
+    color: #fff;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    background: #1E89E2;
+    margin-top: 15px;
+}
+.myPerInfo {
+    display: inline-block;
+    float: left;
+    font-weight: 100;
+    margin-top: 8px;
+    font-size: 28px;
+    color: #009DCD;
+}
+/* 个人中心 */
+.mySpace {
+    margin: 60px auto 76px;
+}
+.ContCtrL,
+.ContCtrR {
+    background: #fff;
+}
+.ContCtrL {
+    width: 240px;
+    display: inline-block;
+    float: left;
+}
+.ContCtrR {
+    display: inline-block;
+    float: right;
+}
+.slideUp {
+    box-sizing: border-box;
+    line-height: 80px;
+}
+.slideUp h1 {
+    padding-left: 77px;
+    background: url(../images/timg.jpg) no-repeat 43px 28px;
+    background-size: 24px 24px;
+    font-size: 20px;
+    color: #666;
+    margin: 0 10px;
+    border-bottom: 1px solid #eaeaea;
+    font-weight: 800;
+}
+.slideUp div {
+    /*  display:none;   */
+}
+.slideUp div p {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.slideUp div p a {
+    display: block;
+    width: 220px;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #eaeaea;
+    line-height: 56px;
+    height: 56px;
+    text-align: center;
+}
+.slideUp div p a.active {
+    color: #1e89e2;
+}
+.slideUp div p.blue {
+    border-left: 8px solid #1E89E2;
+    padding-left: 2px;
+}
+/* 
+**
+个人信息右侧 
+*
+*
+*/
+.ContCtrR {
+    width: 940px;
+}
+.bgBlue {
+    width: 100%;
+    box-sizing: border-box;
+    height: 120px;
+    background: -moz-linear-gradient(135deg, #58BAE1, #64C4C9);
+    /* Firefox 3.6+ */
+    background: -webkit-linear-gradient(135deg, #58BAE1, #64C4C9);
+    /* Safari 5.1+, Chrome 10+ */
+    background: -o-linear-gradient(135deg, #58BAE1, #64C4C9);
+    /* Opera 11.10+ */
+    background: -webkit-gradient(linear, center 135deg, center bottom, from(#58BAE1), to(#64C4C9));
+    /*Old gradient for webkit*/
+    /* background:-webkit-gradient(linear,0 50%,100% 50%,from(#ace),to(#f96)); */
+    /* ie 依靠滤镜实现渐变;GradientType:0表示垂直/1表示水平；*/
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#58BAE1, endColorstr=#64C4C9);
+    /*IE<9>*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=@c, endColorstr=@w)";
+    /*IE8+*/
+}
+.conPer {
+    padding: 18px 193px 40px;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    height: 204px;
+}
+.conPer .perNum {
+    display: inline-block;
+    float: right;
+}
+.conPer .marks {
+    display: inline-block;
+    float: left;
+}
+.conPer > div > p {
+    font-size: 14px;
+    color: #666;
+    padding-left: 20px;
+}
+.conPer > div > p.f40c3 {
+    font-size: 40px;
+    color: #333;
+}
+.conPer > div > p.f14c9b {
+    font-size: 14px;
+    color: #9b9b9b;
+    margin-top: 55px;
+    padding-left: 30px;
+    background: url(../images/timg.jpg) no-repeat left center;
+    background-size: 20px 20px;
+}
+.perPhoto {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    margin-left: -50px;
+}
+.perPhoto img {
+    width: 100px;
+    height: 100px;
+}
+.perPhoto dd {
+    font-size: 18px;
+    color: #58627c;
+    text-align: center;
+}
+.ConAssets {
+    margin: 0 30px;
+    border-top: 1px solid #eaeaea;
+    height: 100px;
+    padding-top: 40px;
+}
+.ConAssets div {
+    border-right: 1px solid #eaeaea;
+}
+.ConAssets .br0 {
+    border-right: none;
+}
+.ConaCnt {
+    display: inline-block;
+    float: left;
+    padding: 0 80px 0 80px;
+}
+.Con5aCnt {
+    display: inline-block;
+    float: left;
+    width: 314px;
+    text-align: center;
+}
+.ConAccCnt {
+    display: inline-block;
+    float: left;
+    padding: 0 80px 0 80px;
+}
+.fz14 {
+    font-size: 14px;
+}
+.ConMny {
+    font-size: 30px;
+    color: #F5A623;
+}
+.ConBtns a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: #1E89E2;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+.ConBtns .lightBlue {
+    background: #7DCAD3;
+}
+.Con5aCnt2 {
+    padding: 0 110px 0 102px;
+    display: inline-block;
+    float: left;
+}

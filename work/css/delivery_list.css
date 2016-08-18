@@ -1,0 +1,286 @@
+/* start header */
+.header{
+    width:100%;
+    height: 70px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0 2px 4px rgba(193, 193, 193, 0.5);
+    -moz-box-shadow: 0 2px 4px rgba(193, 193, 193, 0.5);
+    -ms-box-shadow: 0 2px 4px rgba(193, 193, 193, 0.5);
+    -o-box-shadow: 0 2px 4px rgba(193, 193, 193, 0.5);
+    box-shadow: 0 2px 4px rgba(193, 193, 193, 0.5);
+}
+.header .header_middle{
+    width: 1200px;
+    height: 70px;
+    margin:0 auto;
+}
+.header .header_middle .header_logo{
+    float: left;
+    padding: 13px 0;
+    margin-left: 45px;
+}
+.header .header_middle .header_logo a{
+    display: inline-block;
+    width: 96px;
+    height: 44px;
+}
+.header .header_middle .header_logo a img{
+    width: 100%;
+    height: 100%;
+}
+.header .header_middle .header_logo span{
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+    font-size: 28px;
+    color: #009DCD;
+    vertical-align: top;
+}
+.header .header_middle .header_return{
+    float: right;
+    width: 140px;
+    height:40px;
+    line-height: 40px;
+    margin: 15px 13px 15px;
+    text-align: center;
+    background: #1E89E2;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+/* end header */
+
+/* 个人中心 */
+.mySpace {
+    margin: 60px auto 126px;
+}
+.ContCtrL{
+    background: #fff;
+}
+.ContCtrL {
+    width: 240px;
+    display: inline-block;
+    float: left;
+}
+.ContCtrR {
+    display: inline-block;
+    float: right;
+}
+.slideUp {
+    box-sizing: border-box;
+    line-height: 80px;
+}
+.slideUp h1 {
+    padding-left: 77px;
+    background: url(../images/timg.jpg) no-repeat 43px 28px;
+    background-size: 24px 24px;
+    font-size: 20px;
+    color: #666;
+    margin: 0 10px;
+    border-bottom: 1px solid #eaeaea;
+    font-weight: 800;
+}
+.slideUp div {
+    /*  display:none;   */
+}
+.slideUp div p {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.slideUp div p a {
+    display: block;
+    width: 220px;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #eaeaea;
+    line-height: 56px;
+    height: 56px;
+    text-align: center;
+}
+.slideUp div p a.active {
+    color: #1e89e2;
+}
+.slideUp div p.blue {
+    border-left: 8px solid #1E89E2;
+    padding-left: 2px;
+}
+
+/*右侧ContCtrR*/
+.ContCtrR{
+    width: 940px;
+}
+.select_btn{
+    height: 50px;
+    vertical-align: middle;
+}
+.select_btn .btn_list{
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #FFFFFF;
+    font-size: 14px;
+    color: #999999;
+    cursor: pointer;
+}
+.select_btn .selected_btn{
+    margin-top: 0px;
+    width: 150px;
+    height: 50px;
+    background: #FFFFFF;
+    font-size: 18px;
+    color: #1E89E2;
+}
+
+/* start project_list */
+.project{
+    margin-top: 10px;
+    width: 860px;
+}
+.project .project_list {
+    padding: 0px 40px;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+}
+
+.project_title span{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 40px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.project_title .project_fig {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.project_waitApply{
+    background: #CFCFCF;
+}
+.project_already{
+    background: #F5A623;
+}
+.project_success{
+    background: #FF4F4F;
+}
+.project_completed{
+    background: #1E89E2;
+}
+.project_cancel{
+    background: #CFCFCF;
+}
+.project_fail{
+    background: #CFCFCF;
+}
+.project_list .project_con {
+    height: 84px;
+    line-height: 84px;
+    border-bottom: 1px solid #EAEAEA;;
+}
+
+.project_list .project_con_success {
+    margin-bottom: 30px;
+}
+
+.project_list .project_con .con {
+    float: left;
+    font-size: 24px;
+    color: #333333;
+}
+
+.project_list .project_con .detail {
+    float: right;
+    font-size: 14px;
+    color: #1E89E2;
+}
+.all_btn{
+    padding: 65px 0 40px;
+}
+.all_btn a{
+    float: right;
+    margin-left: 60px;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0px;
+}
+.abandon_btn{
+    color: #666666;
+    background: #EAEAEA;
+}
+.apply_btn{
+    color: #FFFFFF;
+    background: #7DCAD3;
+}
+.manage_btn{
+    color: #FFFFFF;
+    background: #1E89E2;
+}
+/* end project_list */
+
+/*start tips*/
+.tips {
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 14px;
+    margin-left: 275px;
+}
+
+.tips .page {
+    display: block;
+    float: left;
+    width: 70px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0px;
+    background: #FFFFFF;
+}
+
+.tips .pages {
+    float: left;
+    margin-right: 10px;
+}
+
+.tips .pages .page_list {
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #333333;
+    background: #FFFFFF;
+}
+
+.tips .pages .page_list_selected {
+    background: #1E89E2;
+    color: #FFFFFF;
+}
+
+/*end tips*/
+
+
+
+
+
+
+
+
+
+

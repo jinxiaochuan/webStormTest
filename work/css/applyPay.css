@@ -1,0 +1,451 @@
+/* start header */
+.header{
+    width:100%;
+    height: 70px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0 2px 4px rgba(193, 193, 193, 0.5);
+    -moz-box-shadow: 0 2px 4px rgba(193, 193, 193, 0.5);
+    -ms-box-shadow: 0 2px 4px rgba(193, 193, 193, 0.5);
+    -o-box-shadow: 0 2px 4px rgba(193, 193, 193, 0.5);
+    box-shadow: 0 2px 4px rgba(193, 193, 193, 0.5);
+}
+.header .header_middle{
+    width: 1200px;
+    height: 70px;
+    margin:0 auto;
+}
+.header .header_middle .header_logo{
+    float: left;
+    padding: 13px 0;
+    margin-left: 45px;
+}
+.header .header_middle .header_logo a{
+    display: inline-block;
+    width: 96px;
+    height: 44px;
+}
+.header .header_middle .header_logo a img{
+    width: 100%;
+    height: 100%;
+}
+.header .header_middle .header_logo span{
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+    font-size: 28px;
+    color: #009DCD;
+    vertical-align: top;
+}
+.header .header_middle .header_return{
+    float: right;
+    width: 140px;
+    height:40px;
+    line-height: 40px;
+    margin: 15px 13px 15px;
+    text-align: center;
+    background: #1E89E2;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+/* end header */
+
+/* start apply */
+.apply{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    background: #FFFFFF;
+}
+.apply .apply_detail{
+    padding: 0 50px;
+}
+.apply .apply_detail .apply_list{
+    border-bottom:1px solid #EAEAEA;;
+}
+.refuse_title{
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+}
+.refuse_info{
+    height: 90px;
+    line-height: 90px;
+    padding-left: 10px;
+}
+.refuse_info .warm_logo{
+    float: left;
+    margin: 20px 0;
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #D8D8D8;
+    border: 1px solid #979797;
+}
+.refuse_info .warm_info{
+    float: left;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #FF4F4F;
+}
+
+.cancel_project {
+    height: 116px;
+    padding: 0 50px;
+}
+.cancel_project .bid_title{
+    padding: 20px 0;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #999999;
+}
+.cancel_project .bid_title .project_num{
+    margin-right: 40px;
+}
+.cancel_project .bid_con{
+    height: 24px;
+    line-height: 24px;
+}
+.cancel_project .bid_con .con{
+    font-size: 24px;
+    color: #333333;
+}
+.cancel_project .bid_con .detail{
+    float: right;
+    font-size: 14px;
+    color: #1E89E2;
+}
+.cancel_balance {
+    padding: 0 50px;
+    height: 60px;
+    line-height: 60px;
+}
+.cancel_balance .balance{
+    padding-right: 10px;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 0px;
+}
+.cancel_balance .project_balance{
+    font-size: 20px;
+    color: #F5A623;
+}
+.cancel_balance .balance_detail{
+    float: right;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 0px;
+}
+.cancel_balance .balance_detail .arrow_down{
+    display: inline-block;
+    margin-left: 10px;
+    width: 14px;
+    height: 14px;
+    background: url("../images/refuse/icon_disclosure%20indicator_down_pre.png") left 6px no-repeat;
+}
+/*start展开状态*/
+/* start交易明细 */
+.transaction{
+    display: none;
+    margin-top: 10px;
+    padding: 20px 20px 0;
+    width: 900px;
+    background: #FFFFFF;
+}
+.transaction_large{
+    padding: 20px 0;
+    width: 1100px;
+}
+.transaction_title{
+    padding: 0 20px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    color: #666666;
+    letter-spacing: 0px;
+}
+.transaction_amount{
+    padding: 0 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.amount_list{
+    float: left;
+    width: 110px;
+    margin-right: 160px;
+}
+.amount_list p{
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #9B9B9B;
+    letter-spacing: 0px;
+}
+.amount_list span{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 6px;
+    font-size: 30px;
+    color: #F5A623;
+}
+.transaction_detail{
+    border-bottom: 1px solid #EAEAEA;;
+}
+.transaction_list{
+    float: left;
+}
+.transaction_list p{
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 1px solid #EAEAEA;;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0px;
+}
+.transaction_list span{
+    line-height: 100px;
+    font-size: 18px;
+    color: #333333;
+    letter-spacing: 0px;
+}
+.transaction_time,.transaction_number,.transaction_type{
+    width: 200px;
+}
+.transaction_sum,.transaction_account{
+    width: 140px;
+}
+.transaction_time{
+    width: 220px;
+}
+
+.transaction_time_large,.transaction_number_large,.transaction_type_large{
+    width: 240px;
+}
+.transaction_sum_large,.transaction_account_large{
+    width: 180px;
+}
+.transaction_time_large{
+    width: 260px;
+}
+
+.time_title{
+    padding-left: 20px;
+}
+.time_detail{
+    padding-left: 20px;
+}
+.symbol{
+    display: inline-block;
+    width: 18px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #79C52D;
+    letter-spacing: 0px;
+}
+.slide_up{
+    /*margin-right: 10px;
+    height: 46px;
+    line-height: 46px;
+    text-align: right;
+    vertical-align: middle;*/
+
+    padding: 0 50px;
+    height: 46px;
+    line-height: 46px;
+    background: #FFFFFF;
+    margin-top: 10px;
+}
+.slide_up_word{
+    /*font-size: 14px;
+    color: #666666;*/
+    float: right;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 0px;
+}
+.arrow_up{
+    margin-left: 10px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url("../images/bids/icon_disclosure%20indicator_down_pre.png") left bottom no-repeat;
+}
+/* end 交易明细 */
+/*end展开状态*/
+/* end apply */
+
+/* start compensation*/
+.compensation{
+    width: 1100px;
+    padding-top: 40px;
+    padding-left: 100px;
+    margin: 0 auto;
+    height: 690px;
+    background: #FFFFFF;
+}
+.compensation .compensation_balance{
+    margin-bottom: 30px;
+}
+.compensation .compensation_balance .compensation_num{
+    float: left;
+
+}
+.compensation_num p{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666666;
+}
+.compensation_num input{
+    width: 200px;
+    height: 42px;
+    padding-left: 20px;
+    margin-right: 10px;
+    background: #FFFFFF;
+    border: 1px solid #E0E7EE;
+    font-size: 14px;
+    color: #CFCFCF;
+}
+.compensation_num span{
+    font-size: 20px;
+    color: #333333;
+}
+.compensation .compensation_desc{
+    margin-bottom: 20px;
+}
+.compensation_desc p{
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #666666;
+}
+.compensation_desc .desc_box{
+    width: 578px;
+    height: 30px;
+    background: #EAEAEA;
+    border: 1px solid #E0E7EE;
+    border-bottom: none;
+}
+.compensation_desc .desc{
+    width: 538px;
+    height: 168px;
+    padding: 20px;
+    background: #FFFFFF;
+    border: 1px solid #E0E7EE;
+    border-top: none;
+    font-size: 14px;
+    color: #333333;
+}
+.file_button {
+    position: relative;
+    display: block;
+    float: left;
+    background: #7DCAD3;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+    text-indent: 0;
+    color: #FFFFFF;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+}
+.file_button input {
+    position: absolute;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.enclosure{
+    width: 580px;
+}
+.enclosure_link{
+    position: relative;
+    float: right;
+    margin-right: 5px;
+    width: 230px;
+    height: 40px;
+    padding: 5px;
+    background: #F0F8FF;
+}
+.enclosure_download{
+    display: block;
+    height: 40px;
+    padding-left: 43px;
+    background: url("../images/bids/icon_annex.png") left center no-repeat;
+}
+.enclosure_download .enclosure_name{
+    height: 17px;
+    line-height: 17px;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 0px;
+}
+.enclosure_download .enclosure_size{
+    font-size: 10px;
+    color: #999999;
+    letter-spacing: 0px;
+}
+.close_btn{
+    position: absolute;
+    top:-10px;
+    right:-10px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/refuse/icon_close_red_nor.png") center center no-repeat;
+}
+/*.file_button:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}*/
+.apply_button{
+    display: block;
+    margin: 0px auto;
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #1E89E2;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+}
+/* end compensation*/
+
+/* start QR code */
+.code{
+    margin: 100px auto;
+    width: 200px;
+    text-align: center;
+}
+.code .code_img{
+    width: 200px;
+    height: 200px;
+    background: #D8D8D8;
+    margin-bottom: 20px;
+}
+.code .code_word{
+    font-size: 18px;
+    color: #2B90A3;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+
+
+/* end QR code */

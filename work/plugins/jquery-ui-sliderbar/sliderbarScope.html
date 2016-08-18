@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI 滑块（Slider） - 范围滑块</title>
+  <link rel="stylesheet" href="css/base/jquery-ui-1.10.4.custom.min.css">
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+
+  <style> 
+      body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+      font-size: 1em;
+    }
+
+    .ui-draggable, .ui-droppable {
+      background-position: top;
+    }
+      .ui-corner-all{border-radius:20px;}
+      .ui-widget-content .ui-state-default{background: #1E89E2;}
+      .ui-slider-horizontal .ui-slider-range{background: #8DC8F8;}
+    </style>
+  <script>
+  $(function() {
+    $( "#slider-range" ).slider({
+      range: true,
+      min: 0,
+      max: 500000,
+      step:1000,
+      values: [ 10000, 50000 ],
+      slide: function( event, ui ) {
+        $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+      }
+    });
+    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+  });
+  </script>
+</head>
+<body>
+ 
+<p>
+  <label for="amount">价格范围：</label>
+  <input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;">
+</p>
+ 
+<div id="slider-range"></div>
+ 
+ 
+</body>
+</html>
