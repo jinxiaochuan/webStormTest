@@ -1,6 +1,6 @@
 /*
 * animate 模块
-* 动画组件,使元素可以产生动画效果
+* 动画组件,使元素可以产生动画效果 NNNNNNNN
 */
 Breeze.namespace('util.animate', function (B) {
     var win = window, doc = document, M = Math,
